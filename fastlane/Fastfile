@@ -13,8 +13,11 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
-default_platform(:ios)
 ENV["locate"]="fast"
+
+import_from_git(url: "https://github.com/novr/Fastfile_Test", branch: "test")
+
+default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
