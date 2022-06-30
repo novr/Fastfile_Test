@@ -7,3 +7,5 @@
 
 app_identifier "com.github.novr"
 team_id "xxx"
+
+ENV["locate"]="git"
